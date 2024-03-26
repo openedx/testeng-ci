@@ -4,53 +4,47 @@
 #
 #    make upgrade
 #
-certifi==2023.7.22
+certifi==2024.2.2
     # via requests
 cffi==1.16.0
     # via
     #   cryptography
     #   pynacl
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via -r requirements/base.in
-cryptography==41.0.4
+cryptography==42.0.5
     # via pyjwt
 deprecated==1.2.14
     # via pygithub
 gitdb==4.0.11
     # via gitpython
-gitpython==3.1.40
+gitpython==3.1.42
     # via -r requirements/base.in
-idna==3.4
+idna==3.6
     # via requests
-packaging==23.2
+packaging==24.0
     # via -r requirements/base.in
 pycparser==2.21
     # via cffi
-pygithub==2.1.1
+pygithub==2.3.0
     # via -r requirements/base.in
 pyjwt[crypto]==2.8.0
-    # via
-    #   pygithub
-    #   pyjwt
-pynacl==1.5.0
     # via pygithub
-python-dateutil==2.8.2
+pynacl==1.5.0
     # via pygithub
 requests==2.31.0
     # via
     #   -r requirements/base.in
     #   pygithub
-six==1.16.0
-    # via python-dateutil
 smmap==5.0.1
     # via gitdb
-typing-extensions==4.8.0
+typing-extensions==4.10.0
     # via pygithub
-urllib3==2.0.7
+urllib3==2.2.1
     # via
     #   pygithub
     #   requests
-wrapt==1.15.0
+wrapt==1.16.0
     # via deprecated
